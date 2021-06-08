@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+
+<body>
+
+<form method="POST">
+    <label>First Name</label>
+    <input type="text" name="name">
+    <br>
+    <label>Last Name</label>
+    <input type="text"  name="surname">
+    <br>
+    <label>Active</label>
+    <input type="checkbox"  name="active">
+    <br>
+    <input type="submit">
+</form>
+
+<br>
+
+<h1>First: {{.Name}}</h1>
+<h1>Last: {{.Surname}}</h1>
+<h1>Active: {{.Active}}</h1>
+
+</body>
+</html>
